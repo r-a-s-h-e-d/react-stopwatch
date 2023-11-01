@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.app {
+  text-align: center;
+  background-color: whitesmoke;
+}
+
+.header {
+  height: 35px;
+  padding: 0.5em;
+  color: white;
+  background-color: #282c34;
+}
+
+.head-text .edit {
+  opacity: 0;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.head-text:hover .edit {
+  opacity: 1;
+}
+
+.control {
+  font-size:x-large;
+  margin-top: 3px;
+  border: 1px solid white;
+  border-radius: 3px;
+  color: white;
+  background-color: #282c34;
+}
+
+.digit-container {
+  height: 180px;
+  margin-left: 5%;
+  display: flex;
+}
+
+.digit {
+  width: 120px;
+  height: 120px;
+  margin: 10px 0 10px 20px;
+  border: 0.5em solid;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.digit h3 {
+  margin-top: 10px;
+  font-weight: lighter;
+  font-size: 5.5em;
+}
+
+.btn {
+  cursor: pointer;
+  margin: 0.5em;
+  height: 1.5em;
+  width: 4em;
+  border: 3px solid #282c34;
+  border-radius: 10px;
+  color: white;
+  background-color: teal;
+  font-size: 2em;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.btn:active {
+  transform: scale(0.99);
+}
+
+.lap {
+  font-size: 1.5em;
+}
